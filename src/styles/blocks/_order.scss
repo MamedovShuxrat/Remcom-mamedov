@@ -1,0 +1,21 @@
+.order {
+  padding: 130px 0;
+  background-color: rgba($secondary, .1);
+}
+
+.order-inner {
+  @include container;
+}
+
+.order-title {
+  @include title-section;
+  margin-bottom: 37px;
+
+}
+
+.order-descr {
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  color: $secondary;
+}

@@ -1,13 +1,16 @@
 // Fonts
 $font: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
-$h1-fz-mobile: 20px;
-$h1-fz-tablet: 32px;
-$h1-fz-desktop: 48px;
-$h1-fw: 400;
-
 // colors
+$primary : #FF2D2D;
+$secondary: #333333;
+$main :      #fff;
 
 // indents
+@mixin container($width: 1278px) {
+  width: $width;
+  margin: 0 auto;
+  border: 1px solid red;
+}
 
 // breakpoints

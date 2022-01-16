@@ -1,0 +1,32 @@
+.footer {
+  background-color: $secondary;
+  padding: 30px 0;
+}
+
+.footer-inner {
+  @include container;
+}
+
+.footer-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.phone {
+  margin-left: 700px;
+  text-decoration: none;
+  font-size: 28px;
+  line-height: 38px;
+  color: $main;
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+
+  .social-item {
+    margin-left: 15px;
+  }
+}

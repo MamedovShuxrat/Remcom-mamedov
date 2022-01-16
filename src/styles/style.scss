@@ -1,7 +1,20 @@
 // common files
 @import "common/_variables";
 @import "common/_fonts";
+@import "common/_mixins";
 @import "common/_common";
 
 // blocks
+@import "blocks/_header";
 @import "blocks/_promo";
+@import "blocks/_btn";
+@import "blocks/_portfolio";
+@import "blocks/_order";
+@import "blocks/_footer";
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

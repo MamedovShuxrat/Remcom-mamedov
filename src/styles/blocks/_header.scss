@@ -1,0 +1,50 @@
+.header {
+  background-color: $secondary;
+  padding: 33px 0;
+}
+
+.header-inner {
+  @include container;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.logo {
+  font-size: 42px;
+  line-height: 57px;
+  color: $main;
+  text-decoration: none;
+  }
+
+.active {
+  background-color: $primary;
+}
+
+.nav-list {
+  display: flex;
+
+  .nav-item {
+    list-style: none;
+    padding: 33px 25px;
+    margin-left: 5px;
+
+    .nav-link {
+      font-size: 14px;
+      line-height: 24px;
+      color: $main;
+      text-decoration: none;
+
+    }
+
+    &:hover {
+      background-color: $primary;
+    }
+  }
+
+
+}
