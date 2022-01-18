@@ -1,11 +1,12 @@
 .btn {
+  display: inline-block;
+  padding: 30px 36px 30px 48px;
+  text-align: center;
+  font-weight: 400;
   font-size: 42px;
   line-height: 57px;
-  text-align: center;
   color: $main;
   background-color: $primary;
   text-decoration: none;
-  padding: 30px 36px 30px 48px;
-  display: inline-block;
 
 }

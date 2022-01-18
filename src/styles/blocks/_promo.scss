@@ -1,6 +1,9 @@
 .promo {
-  background-color: #444;
+  background-image: url('../images/promo-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 200px 0 214px;
+  text-align: center;
 
 }
 
@@ -9,6 +12,7 @@
 }
 
 .promo-title {
+  font-weight: 600;
   font-size: 72px;
   line-height: 98px;
   text-align: center;

@@ -13,7 +13,7 @@
 }
 
 .phone {
-  margin-left: 700px;
+  margin-left: auto;
   text-decoration: none;
   font-size: 28px;
   line-height: 38px;
@@ -25,8 +25,32 @@
   display: flex;
   justify-content: space-between;
   margin-left: 60px;
+}
 
-  .social-item {
-    margin-left: 15px;
-  }
+.social-item {
+  margin-left: 15px;
+}
+
+.social-icon {
+  height: 26px;
+  width: 26px;
+  display: block;
+
+}
+.social-link {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-icon-inst {
+  background-image: url('../images/inst.svg');
+}
+
+.social-icon-face {
+  background-image: url('../images/facebook.svg');
+}
+
+.social-icon-twit {
+  background-image: url('../images/twitter.svg');
 }
