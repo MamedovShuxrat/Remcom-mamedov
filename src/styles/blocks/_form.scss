@@ -1,0 +1,29 @@
+.order-form {
+  display: flex;
+  align-items: center;
+  margin: 0 -10px;
+  text-align: left;
+}
+
+.order-form-item {
+  padding: 0 10px;
+  flex-basis: 33.33%;
+
+}
+
+.order-form-label {
+  display: block;
+  color: $secondary;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 8px;
+
+  &::placeholder {
+    color: $secondary;
+  }
+}
+
+.order-form-input {
+  width: 100%;
+  padding: 35px 30px;
+}

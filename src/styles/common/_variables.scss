@@ -8,9 +8,17 @@ $main :      #fff;
 
 // indents
 @mixin container($width: 1278px) {
-  width: $width;
+  max-width: $width + 20px;
+  padding: 0 10px;
   margin: 0 auto;
   border: 1px solid red;
 }
 
 // breakpoints
+
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1280px;
+
+$mobile-max: $tablet - 1;
+$tablet-max: $desktop - 1;

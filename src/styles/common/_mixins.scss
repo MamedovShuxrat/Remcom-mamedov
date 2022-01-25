@@ -5,4 +5,14 @@
   text-align: center;
   color: $secondary;
 
+  @media (max-width: $tablet-max) {
+    font-size: 54px;
+    line-height: 74px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
 }

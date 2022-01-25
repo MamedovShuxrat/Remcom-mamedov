@@ -7,8 +7,19 @@
 
 body {
   font-family: $font;
+  padding-top: 89px;
+
+  @media (max-width: $tablet-max) {
+  padding-top: 37px;
+
+  }
+
+  @media (max-width: $mobile-max) {
+
+  }
 }
 
 img {
   display: block;
+  max-width: 100%;
 }

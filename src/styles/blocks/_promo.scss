@@ -17,7 +17,19 @@
   line-height: 98px;
   text-align: center;
   color: $main;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
+
+  @media (max-width: $tablet-max) {
+    font-size: 54px;
+    line-height: 74px;
+    margin-bottom: 100px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 80px;
+  }
 }
 
 
