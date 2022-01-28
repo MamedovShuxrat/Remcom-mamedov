@@ -12,16 +12,48 @@
   @include title-section;
 }
 
+.port-nav {
+  margin-top: 77px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.port-nav-list {
+  padding: 0 25px;
+}
+
+.port-nav-link {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  color: $secondary;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+
+
 .port-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
   margin: 110px -10px 120px;
 
 }
+.port-list-mg {
+  margin: 40px -10px 120px;
+
+}
 .port-item {
   flex-basis: 25%;
   padding: 0 10px;
+  margin-bottom: 20px;
 }
 
 .port-card {

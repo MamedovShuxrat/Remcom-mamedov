@@ -1,0 +1,63 @@
+.reviews {
+  padding: 130px 0;
+  text-align: center;
+}
+
+.reviews-inner {
+  @include container;
+}
+
+.reviews-title {
+  @include title-section;
+
+}
+
+.reviews-box {
+  display: flex;
+
+}
+
+.reviews-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 40%;
+  padding-left: 24px;
+  margin-left: -24px;
+
+  span {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: $primary;
+  }
+}
+
+.reviews-img {
+  border-radius: 50%;
+  margin-left: 58px;
+
+}
+
+.reviews-info {
+  flex-basis: 60%;
+  display: flex;
+
+
+  span {
+    display: block;
+  }
+}
+
+
+
+.reviews-info-title {
+  font-size: 48px;
+  line-height: 65px;
+}
+
+.reviews-descr {
+  font-size: 24px;
+  line-height: 33px;
+  color: $secondary;
+}
