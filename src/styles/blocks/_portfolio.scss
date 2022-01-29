@@ -1,5 +1,5 @@
 .portfolio {
-  background-color: #e5e5e5;
+  background-color: #fff;
   padding: 130px 0;
   text-align: center;
 }
@@ -12,18 +12,18 @@
   @include title-section;
 }
 
-.port-nav {
+.portfolio-nav {
   margin-top: 77px;
   list-style: none;
   display: flex;
   justify-content: center;
 }
 
-.port-nav-list {
+.portfolio-nav-list {
   padding: 0 25px;
 }
 
-.port-nav-link {
+.portfolio-nav-link {
   font-weight: 600;
   font-size: 22px;
   line-height: 24px;
@@ -38,7 +38,7 @@
 
 
 
-.port-list {
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -46,25 +46,23 @@
   margin: 110px -10px 120px;
 
 }
-.port-list-mg {
+.portfolio-list-mg {
   margin: 40px -10px 120px;
 
 }
-.port-item {
+.portfolio-item {
   flex-basis: 25%;
   padding: 0 10px;
   margin-bottom: 20px;
 }
 
-.port-card {
+.portfolio-card {
   position: relative;
 }
 
-.port-img {
-  background-image: url('/src/images/portfolio-1.jpg');
-}
 
-.port-link {
+
+.portfolio-link {
   position: absolute;
   left: 0;
   bottom: 0;

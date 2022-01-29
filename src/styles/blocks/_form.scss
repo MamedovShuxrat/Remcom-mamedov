@@ -24,6 +24,10 @@
 }
 
 .order-form-input {
+  font-family: $font;
+  font-weight: 400;
   width: 100%;
   padding: 35px 30px;
+  border-radius: 6px;
+  border: none;
 }
