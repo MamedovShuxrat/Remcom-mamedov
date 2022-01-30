@@ -1,5 +1,5 @@
 .header {
-  background-color: $secondary;
+  background-color: $dark;
   position: fixed;
   top: 0;
   left: 0;
@@ -22,7 +22,7 @@
   font-weight: 60;
   font-size: 42px;
   line-height: 57px;
-  color: $main;
+  color: $white;
   text-decoration: none;
 
   @media (max-width: $tablet-max) {
@@ -36,8 +36,16 @@
   }
 }
 
+.logo-footer {
+  @media (max-width: $mobile-max) {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+  }
+}
+
 .active {
-  background-color: $primary;
+  background-color: $red;
 }
 
 .header-nav {
@@ -57,17 +65,16 @@
     .nav-link {
       display: inline-block;
       padding: 33px 25px;
-
       font-size: 14px;
       line-height: 24px;
-      color: $main;
+      color: $white;
       text-decoration: none;
       font-weight: 700;
 
     }
 
     &:hover {
-      background-color: $primary;
+      background-color: $red;
     }
   }
 

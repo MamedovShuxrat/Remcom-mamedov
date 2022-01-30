@@ -2,17 +2,14 @@
 $font: 'Open Sans' , sans-serif;
 
 // colors
-$primary : #FF2D2D;
-$secondary: #333333;
-$main :      #fff;
+$red: #FF2D2D;
+$dark: #333333;
+$white:      #fff;
 
 // indents
-@mixin container($width: 1278px) {
-  max-width: $width + 20px;
-  padding: 0 10px;
-  margin: 0 auto;
-  border: 1px solid red;
-}
+$gap: 20px;
+$gap-half: 10px;
+
 
 // breakpoints
 

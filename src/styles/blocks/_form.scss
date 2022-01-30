@@ -1,5 +1,6 @@
 .order-form {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-end;
   margin: 0 -10px;
   text-align: left;
@@ -9,17 +10,38 @@
   padding: 0 10px;
   flex-basis: 33.33%;
 
+  @media (max-width: $tablet-max) {
+   flex-basis: 50%;
+  }
+
+  @media (max-width: $mobile-max) {
+    flex-basis: 100%;
+  }
+
+}
+
+.order-form-item-btn {
+
+  @media (max-width: $tablet-max) {
+    flex-basis: 100%;
+    margin-top: 40px;
+
+   }
+
+   @media (max-width: $mobile-max) {
+
+   }
 }
 
 .order-form-label {
   display: block;
-  color: $secondary;
+  color: $dark;
   font-size: 20px;
   line-height: 27px;
   margin-bottom: 8px;
 
   &::placeholder {
-    color: $secondary;
+    color: $dark;
   }
 }
 

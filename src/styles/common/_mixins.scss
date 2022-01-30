@@ -3,16 +3,14 @@
   font-size: 64px;
   line-height: 87px;
   text-align: center;
-  color: $secondary;
+  color: $dark;
 
-  @media (max-width: $tablet-max) {
-    font-size: 54px;
-    line-height: 74px;
-  }
 
-  @media (max-width: $mobile-max) {
-    font-size: 32px;
-    line-height: 44px;
-  }
+}
 
+@mixin container($width: 1278px) {
+  max-width: $width + $gap;
+  padding: 0 $gap-half;
+  margin: 0 auto;
+  border: 1px solid red;
 }
