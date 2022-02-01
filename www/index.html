@@ -34,8 +34,28 @@
 
           </ul>
         </nav>
-
+        <button class="burger js-burger">
+          <span>Menu</span>
+        </button>
       </div>
+      <ul class="nav-list js-nav-list nav-list-mobile">
+
+        <li class="nav-item ">
+          <a href="catalog.html" class="nav-link">Каталог</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="reviews.html" class="nav-link">Отзывы</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="contacts.html" class="nav-link">Контакты</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="faq.html" class="nav-link">FAQ</a>
+        </li>
+      </ul>
     </div>
   </header>
   <main>
@@ -93,13 +113,13 @@
         <h2 class="order-title">Закажи пошив</h2>
         <p class="order-desc">Заполните форму - наш мастер свяжется с вами, согласует удобное время для встречи. На
           встрече он снимет мерки и поможет обределиться с тканью.</p>
-        <form action="" class="order-form"  id="lead">
+        <form action="" class="order-form" id="lead">
           <div class="order-form-item">
-            <label for="name"  class="order-form-label" name="name">Ваше имя</label>
+            <label for="name" class="order-form-label" name="name">Ваше имя</label>
             <input id="name" type="text" class="order-form-input" placeholder="Иван Иванов">
           </div>
           <div class="order-form-item">
-            <label for="phone"  class="order-form-label" name="phone" >Телефон</label>
+            <label for="phone" class="order-form-label" name="phone">Телефон</label>
             <input id="phone" type="tel" class="order-form-input" placeholder="+7 980 88 88 88">
           </div>
           <div class="order-form-item order-form-item-btn">
@@ -139,6 +159,7 @@
 
   </footer>
 
+  <script src="scripts/jquery-3.6.0.min.js"></script>
   <script src="scripts/script.js"></script>
 </body>
 
