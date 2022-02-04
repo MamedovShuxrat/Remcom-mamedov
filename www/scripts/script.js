@@ -29,4 +29,10 @@ $(document).ready(function(){
     });
   });
 
+  if($('.js-slider').length){
+    $('.js-slider').slick({
+
+    });
+  }
+
 })

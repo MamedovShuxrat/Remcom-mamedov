@@ -43,7 +43,20 @@
     <section class="reviews">
       <div class="reviews-inner">
         <h2 class="reviews-title">Отзывы</h2>
-        <div class="reviews-box">
+        <div class="reviews-box js-slider">
+          <div class="reviews-item">
+            <div class="reviews-card">
+              <div class="reviews-ava">
+                <img src="images/rev-ava.jpg" alt="" class="reviews-img">
+              </div>
+              <div class="reviews-text">
+                <strong class="reviews-name">Лидия Ивановна</strong>
+                <blockquote class="review-quote">Быстро и аккуратно починили мой лододос!
+                  А так же вынесли за собой весь мусор! Еще и в шапке ходют - ван лав!</blockquote>
+              </div>
+            </div>
+          </div>
+
           <div class="reviews-item">
             <div class="reviews-card">
               <div class="reviews-ava">
@@ -75,7 +88,7 @@
             <input id="phone" type="tel" class="order-form-input" placeholder="+7 980 88 88 88">
           </div>
           <div class="order-form-item order-form-item-btn">
-            <button class="btn btn-order" type="submit">Заказать</button>
+            <button class="btn btn-order order-form-item-btn" type="submit">Заказать</button>
           </div>
         </form>
 
@@ -109,7 +122,8 @@
     </div>
 
   </footer>
-
+  <script src="scripts/jquery-3.6.0.min.js"></script>
+  <script src="scripts/slick.min.js"></script>
   <script src="scripts/script.js"></script>
 </body>
 
