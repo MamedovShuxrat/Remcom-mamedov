@@ -11,53 +11,43 @@
   @include title-section;
 
 }
+.reviews-item {
+  margin: 80px 10px 0;
+}
 
-.reviews-box {
+.reviews-card {
   display: flex;
+  color: $dark;
 
 }
 
-.reviews-visual {
+.reviews-ava {
+  padding-right: $gap-half;
+  flex-basis: 41.66%;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-basis: 40%;
-  padding-left: 24px;
-  margin-left: -24px;
-
-  span {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: $red;
-  }
 }
 
 .reviews-img {
+  justify-content: flex-end;
   border-radius: 50%;
-  margin-left: 58px;
 
 }
 
-.reviews-info {
-  flex-basis: 60%;
-  display: flex;
-
-
-  span {
-    display: block;
-  }
-}
-
-
-
-.reviews-info-title {
+.reviews-name {
   font-size: 48px;
   line-height: 65px;
+  margin-bottom: 40px;
+  display: block;
 }
 
-.reviews-descr {
+.review-quote {
   font-size: 24px;
   line-height: 33px;
-  color: $dark;
+}
+
+
+.reviews-text {
+  flex-basis: 58.34%;
+  padding: 33.5px 0;
+  padding-left: $gap-half;
 }

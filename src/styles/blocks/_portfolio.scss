@@ -37,10 +37,21 @@
   list-style: none;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+
+
 }
 
 .portfolio-nav-list {
   padding: 0 25px;
+
+  @media (max-width: $tablet-max) {
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin: 5px;
+  }
 }
 
 .portfolio-nav-link {

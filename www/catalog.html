@@ -17,7 +17,7 @@
           <ul class="nav-list">
 
             <li class="nav-item ">
-              <a href="catalog.html" class="nav-link active">Каталог</a>
+              <a href="catalog.html" class="nav-link">Каталог</a>
             </li>
 
             <li class="nav-item">
@@ -34,8 +34,28 @@
 
           </ul>
         </nav>
-
+        <button class="burger js-burger">
+          <span>Menu</span>
+        </button>
       </div>
+      <ul class="nav-list js-nav-list nav-list-mobile">
+
+        <li class="nav-item ">
+          <a href="catalog.html" class="nav-link">Каталог</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="reviews.html" class="nav-link">Отзывы</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="contacts.html" class="nav-link">Контакты</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="faq.html" class="nav-link">FAQ</a>
+        </li>
+      </ul>
     </div>
   </header>
   <main>
@@ -45,22 +65,22 @@
 
         <ul class="portfolio-nav">
           <li class="portfolio-nav-list">
-            <a href="" class="portfolio-nav-link">Все</a>
+            <a href="#" class="portfolio-nav-link js-filter-link active-1" data-filter="all">Все</a>
+          </li>
+          <li class="portfolio-nav-list ">
+            <a href="#" class="portfolio-nav-link js-filter-link" data-filter="strong">строгие</a>
           </li>
           <li class="portfolio-nav-list">
-            <a href="" class="portfolio-nav-link">строгие</a>
+            <a href="#" class="portfolio-nav-link js-filter-link" data-filter="funny">веселые</a>
           </li>
           <li class="portfolio-nav-list">
-            <a href="" class="portfolio-nav-link">веселые</a>
+            <a href="#" class="portfolio-nav-link js-filter-link" data-filter="animals">для животных</a>
           </li>
           <li class="portfolio-nav-list">
-            <a href="" class="portfolio-nav-link">для животных</a>
+            <a href="#" class="portfolio-nav-link js-filter-link" data-filter="kinder">детские</a>
           </li>
           <li class="portfolio-nav-list">
-            <a href="" class="portfolio-nav-link">детские</a>
-          </li>
-          <li class="portfolio-nav-list">
-            <a href="" class="portfolio-nav-link">для вхрослых</a>
+            <a href="#" class="portfolio-nav-link js-filter-link" data-filter="adult">для вхрослых</a>
           </li>
         </ul>
 
@@ -68,7 +88,7 @@
           <li class="portfolio-item">
             <div class="portfolio-card">
               <img src="images/portfolio-1.jpg" alt="" class="portfolio-img">
-              <a href="" class="portfolio-link">Бабочка такая
+              <a href="#" class="portfolio-link" data-type="strong">Бабочка такая
               </a>
             </div>
 
@@ -76,7 +96,7 @@
           <li class="portfolio-item">
             <div class="portfolio-card">
               <img src="images/portfolio-2.jpg" alt="" class="portfolio-img">
-              <a href="" class="portfolio-link">Бабочка растакая
+              <a href="#" class="portfolio-link js-portfolio" data-type="funny">Бабочка растакая
               </a>
             </div>
 
@@ -84,7 +104,7 @@
           <li class="portfolio-item">
             <div class="portfolio-card">
               <img src="images/portfolio-3.jpg" alt="" class="portfolio-img">
-              <a href="" class="portfolio-link">Бабочка сякая
+              <a href="#" class="portfolio-link js-portfolio" data-type="adult">Бабочка сякая
               </a>
             </div>
 
@@ -92,7 +112,7 @@
           <li class="portfolio-item">
             <div class="portfolio-card">
               <img src="images/portfolio-4.jpg" alt="" class="portfolio-img">
-              <a href="" class="portfolio-link">Бабочка кривая
+              <a href="#" class="portfolio-link js-portfolio" data-type="animals">Бабочка кривая
               </a>
             </div>
 
@@ -101,7 +121,7 @@
           <li class="portfolio-item">
             <div class="portfolio-card">
               <img src="images/portfolio-5.jpg" alt="" class="portfolio-img">
-              <a href="" class="portfolio-link">Бабочка кривая
+              <a href="#" class="portfolio-link js-portfolio" data-type="strong">Бабочка кривая
               </a>
             </div>
 
@@ -109,8 +129,8 @@
 
           <li class="portfolio-item">
             <div class="portfolio-card">
-              <img src="images/portfolio-6.jpg" alt="" class="portfolio-img">
-              <a href="" class="portfolio-link">Бабочка кривая
+              <img src="images/portfolio-6.jpg " alt="" class="portfolio-img">
+              <a href="#" class="portfolio-link js-portfolio" data-type="adult">Бабочка кривая
               </a>
             </div>
 
@@ -119,7 +139,7 @@
           <li class="portfolio-item">
             <div class="portfolio-card">
               <img src="images/portfolio-7.jpg" alt="" class="portfolio-img">
-              <a href="" class="portfolio-link">Бабочка кривая
+              <a href="#" class="portfolio-link js-portfolio" data-type="kinder">Бабочка кривая
               </a>
             </div>
 
@@ -128,7 +148,7 @@
           <li class="portfolio-item">
             <div class="portfolio-card">
               <img src="images/portfolio-8.jpg" alt="" class="portfolio-img">
-              <a href="" class="portfolio-link">Бабочка кривая
+              <a href="#" class="portfolio-link js-portfolio" data-type="funny">Бабочка кривая
               </a>
             </div>
 
@@ -137,7 +157,7 @@
           <li class="portfolio-item">
             <div class="portfolio-card">
               <img src="images/portfolio-9.jpg" alt="" class="portfolio-img">
-              <a href="" class="portfolio-link">Бабочка кривая
+              <a href="#" class="portfolio-link js-portfolio" data-type="strong">Бабочка кривая
               </a>
             </div>
 
@@ -146,7 +166,7 @@
           <li class="portfolio-item">
             <div class="portfolio-card">
               <img src="images/portfolio-10.jpg" alt="" class="portfolio-img">
-              <a href="" class="portfolio-link">Бабочка кривая
+              <a href="#" class="portfolio-link js-portfolio" data-type="funny">Бабочка кривая
               </a>
             </div>
 
@@ -155,7 +175,7 @@
           <li class="portfolio-item">
             <div class="portfolio-card">
               <img src="images/portfolio-11.jpg" alt="" class="portfolio-img">
-              <a href="" class="portfolio-link">Бабочка кривая
+              <a href="#" class="portfolio-link js-portfolio" data-type="strong">Бабочка кривая
               </a>
             </div>
 
@@ -164,7 +184,7 @@
           <li class="portfolio-item">
             <div class="portfolio-card">
               <img src="images/portfolio-12.jpg" alt="" class="portfolio-img">
-              <a href="" class="portfolio-link">Бабочка кривая
+              <a href="#" class="portfolio-link js-portfolio" data-type="funny">Бабочка кривая
               </a>
             </div>
 
@@ -225,7 +245,7 @@
     </div>
 
   </footer>
-
+  <script src="scripts/jquery-3.6.0.min.js"></script>
   <script src="scripts/script.js"></script>
 </body>
 

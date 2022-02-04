@@ -44,17 +44,17 @@
       <div class="reviews-inner">
         <h2 class="reviews-title">Отзывы</h2>
         <div class="reviews-box">
-          <div class="reviews-visual">
-            <span></span>
-            <img src="../images/rew-ava.jpg" alt="" class="reviews-img">
-          </div>
-          <div class="reviews-info">
-            <div class="reviews-info-box">
-              <h3 class="reviews-info-title">Лидия Ивановна</h3>
-              <p class="reviews-descr">Пацаны красавчики! Быстро и аккуратно починили мой лододос!
-                А так же вынесли за собой весь мусор! Еще и в шапке ходют - ван лав!</p>
+          <div class="reviews-item">
+            <div class="reviews-card">
+              <div class="reviews-ava">
+                <img src="images/rev-ava.jpg" alt="" class="reviews-img">
+              </div>
+              <div class="reviews-text">
+                <strong class="reviews-name">Лидия Ивановна</strong>
+                <blockquote class="review-quote">Быстро и аккуратно починили мой лододос!
+                  А так же вынесли за собой весь мусор! Еще и в шапке ходют - ван лав!</blockquote>
+              </div>
             </div>
-            <span></span>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@
         <h2 class="order-title">Закажи пошив</h2>
         <p class="order-desc">Заполните форму - наш мастер свяжется с вами, согласует удобное время для встречи. На
           встрече он снимет мерки и поможет обределиться с тканью.</p>
-        <form action="" class="order-form">
+        <form action="" class="order-form" id="lead">
           <div class="order-form-item">
             <label for="name" class="order-form-label" name="name">Ваше имя</label>
             <input id="name" type="text" class="order-form-input" placeholder="Иван Иванов">
@@ -74,7 +74,7 @@
             <label for="phone" class="order-form-label" name="phone">Телефон</label>
             <input id="phone" type="tel" class="order-form-input" placeholder="+7 980 88 88 88">
           </div>
-          <div class="order-form-item">
+          <div class="order-form-item order-form-item-btn">
             <button class="btn btn-order" type="submit">Заказать</button>
           </div>
         </form>
