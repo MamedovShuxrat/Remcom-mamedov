@@ -11,8 +11,8 @@ $(document).ready(function(){
 
     const filterType = $(this).data('filter')
 
-    $('.js-filter-link').removeClass('active-1');
-    $(this).addClass('active-1');
+    $('.js-filter-link').removeClass('active-text');
+    $(this).addClass('active-text');
 
     if (filterType === 'all') {
       $('.js-portfolio').show();
@@ -34,5 +34,19 @@ $(document).ready(function(){
 
     });
   }
+
+  // Табы в контактах
+  $('.js-tabs-link').on('click', function(event){
+    event.preventDefault();
+
+    const index = $(this).index('.js-tabs-link');
+
+    $('.js-tabs-link').removeClass('active');
+    $(this).addClass('active');
+
+    $('.js-tabs-content').removeClass('active');
+    $('.js-tabs-content').eq(index).addClass('active');
+
+  });
 
 });

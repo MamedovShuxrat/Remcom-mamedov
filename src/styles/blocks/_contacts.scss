@@ -9,3 +9,32 @@
 .contacts-title {
   @include title-section;
 }
+
+.contacts-item {
+  display: none;
+  margin-top: 40px;
+
+  &.active {
+    display: flex;
+  }
+
+}
+
+.contacts-info {
+  flex-basis: 41.66%;
+  padding-right: $gap-half;
+  text-align: center;
+
+  p {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+}
+
+.contacts-map {
+  flex-basis: 58.33%;
+  min-height: 400px;
+  padding-left: $gap-half;
+}

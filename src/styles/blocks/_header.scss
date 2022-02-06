@@ -44,9 +44,7 @@
   }
 }
 
-.active {
-  background-color: $red;
-}
+
 
 .header-nav {
   @media (max-width: $mobile-max) {
@@ -63,6 +61,9 @@
     list-style: none;
     margin-left: 5px;
 
+    .active {
+        background-color: $red;
+      }
 
     .nav-link {
       display: inline-block;
