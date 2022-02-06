@@ -1,0 +1,51 @@
+.slider {
+  padding: 0 40px;
+
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+    li {
+      margin: 0 5px;
+    }
+
+    .slick-active {
+      button {
+        background-color: $dark;
+      }
+    }
+
+    button {
+      display: block;
+      width: 10px;
+      height: 10px;
+      font-size: 0;
+      border-radius: 5px;
+    }
+  }
+
+
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  font-size: 0;
+}
+
+.slick-prev {
+  left: 0;
+  background-image: url('images/left.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slick-next {
+  right: 0;
+}

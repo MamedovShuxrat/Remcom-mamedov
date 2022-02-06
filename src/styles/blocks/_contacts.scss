@@ -1,0 +1,11 @@
+.contacts {
+  padding: 130px 0;
+}
+
+.contacts-inner {
+  @include container;
+}
+
+.contacts-title {
+  @include title-section;
+}

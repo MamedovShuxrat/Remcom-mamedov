@@ -22,13 +22,13 @@
 }
 
 .reviews-ava {
-  padding-right: $gap-half;
+  padding-right:$gap-half;
   flex-basis: 41.66%;
   display: flex;
+  justify-content: flex-end;
 }
 
 .reviews-img {
-  justify-content: flex-end;
   border-radius: 50%;
 
 }
@@ -50,4 +50,7 @@
   flex-basis: 58.34%;
   padding: 33.5px 0;
   padding-left: $gap-half;
+  margin-right: 80px;
 }
+
+
