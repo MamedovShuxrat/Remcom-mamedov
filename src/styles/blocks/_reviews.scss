@@ -19,6 +19,12 @@
   display: flex;
   color: $dark;
 
+  @media (max-width: $mobile-max) {
+    flex-wrap: wrap;
+    justify-content: center;;
+
+  }
+
 }
 
 .reviews-ava {
@@ -26,6 +32,11 @@
   flex-basis: 41.66%;
   display: flex;
   justify-content: flex-end;
+
+  @media (max-width: $mobile-max){
+    flex-basis: 100%;
+    justify-content: center;
+  }
 }
 
 .reviews-img {
@@ -51,6 +62,16 @@
   padding: 33.5px 0;
   padding-left: $gap-half;
   margin-right: 80px;
+
+  @media (max-width: $mobile-max) {
+    text-align: center;
+    flex-basis: 100%;
+    margin-right: 0;
+    padding: $gap-half;
+
+
+  }
+
 }
 
 
