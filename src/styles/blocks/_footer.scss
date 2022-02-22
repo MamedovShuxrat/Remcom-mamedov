@@ -49,6 +49,10 @@
   width: 26px;
   display: block;
 
+  &:hover {
+    transform: scale(1.2);
+  }
+
 }
 .social-link {
   background-size: contain;
@@ -58,6 +62,8 @@
 
 .social-icon-inst {
   background-image: url('../images/inst.svg');
+
+
 }
 
 .social-icon-face {
