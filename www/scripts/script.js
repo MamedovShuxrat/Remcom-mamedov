@@ -29,7 +29,7 @@ $(document).ready(function(){
     });
   });
 
-  if($('.js-slider').length){
+  if ( $('.js-slider').length ) {
     $('.js-slider').slick({
 
     });
@@ -52,10 +52,9 @@ $(document).ready(function(){
   //Аккардион
   let prevBtn;
   $('.js-accordion-btn').on('click', function(){
-    if(this === prevBtn){
-
-    $(this).next().slideToggle();
-    return;
+    if (this === prevBtn) {
+      $(this).next().slideToggle();
+      return;
     }
 
     $('.js-accordion-btn').next().slideUp();
