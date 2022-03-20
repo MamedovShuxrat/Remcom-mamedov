@@ -36,20 +36,25 @@
   height: 30px;
   margin: auto;
   font-size: 0;
+  z-index: 999;
 }
 
 .slick-prev {
   left: 0;
-  background-image: url('images/left.svg');
+  background-image: url('../images/left.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  outline: none;
+  border: none;
 }
 
 .slick-next {
   right: 0;
-  background-image: url('images/right.svg');
+  background-image: url('../images/right.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  outline: none;
+  border: none;
 }
