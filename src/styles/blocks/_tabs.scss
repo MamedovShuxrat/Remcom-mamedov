@@ -3,6 +3,11 @@
   display: flex;
   justify-content: center;
   margin-top: 80px;
+
+
+  @media (max-width: $mobile-max) {
+    overflow-x: auto;
+  }
 }
 
 .tabs-item {
@@ -16,6 +21,7 @@
   font-size: 22px;
   line-height: 24px;
   font-weight: 600;
+  white-space: nowrap;
 
   &:hover {
     color: $red;

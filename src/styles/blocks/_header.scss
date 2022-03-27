@@ -16,8 +16,11 @@
   justify-content: space-between;
   align-items: center;
 
-
+  @media (max-width: $mobile-max) {
+    padding: 16px 0;
+  }
 }
+
 .logo {
   font-weight: 60;
   font-size: 42px;
@@ -26,10 +29,6 @@
   text-decoration: none;
   transition: all .2s linear;
 
-  &:hover {
-    transform: scale(.9);
-
-  }
 
   @media (max-width: $tablet-max) {
     font-size: 36px;
@@ -55,6 +54,11 @@
 .header-nav {
   @media (max-width: $mobile-max) {
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
   }
 
 }
@@ -62,58 +66,51 @@
 .nav-list {
   display: flex;
 
+  @media (max-width: $mobile-max) {
+    display: block;
+    text-align: center;
 
-  .nav-item {
-    list-style: none;
-    margin-left: 5px;
+  }
+}
 
-    .active {
-        background-color: $red;
-      }
+.nav-item {
+  list-style: none;
+  margin-left: 5px;
+  overflow: hidden;
 
-    .nav-link {
-      display: inline-block;
-      padding: 33px 25px;
-      font-size: 14px;
-      line-height: 24px;
-      color: $white;
-      text-decoration: none;
-      font-weight: 700;
-      transition: all .3s ;
 
-      &:hover {
-        transform: scale(1.2);
 
-      }
+}
 
-    }
 
-    &:hover {
-      background-color: $red;
+.nav-link {
+  display: inline-block;
+  padding: 33px 25px;
+  font-size: 14px;
+  line-height: 24px;
+  color: $white;
+  text-decoration: none;
+  font-weight: 700;
+  transition: all .3s ;
 
+  &:hover {
+    transform: scale(1.2);
+    background-color: $red;
+  }
+
+  @media (max-width: $mobile-max) {
+    &:focus{
+      width: 100%;
     }
   }
 
 
 }
 
-.nav-list-mobile {
-  display: none;
-
-  &.show {
-
-    @media (max-width: $mobile-max) {
-      display: block;
-      text-align: center;
-
-    }
-  }
-
-
-}
 
 .active-bg {
   background-color: $red;
+  font-size: 18px;
 }
 
 

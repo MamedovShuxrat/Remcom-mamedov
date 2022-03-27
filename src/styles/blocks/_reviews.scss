@@ -9,10 +9,10 @@
 
 .reviews-title {
   @include title-section;
+  margin-bottom: 80px;
 
 }
 .reviews-item {
-  margin: 80px 10px 0;
 }
 
 .reviews-card {
