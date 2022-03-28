@@ -1,6 +1,5 @@
 .reviews {
   padding: 130px 0;
-  text-align: center;
 }
 
 .reviews-inner {
@@ -18,6 +17,9 @@
 .reviews-card {
   display: flex;
   color: $dark;
+  margin: 0 auto;
+  width: 66.66%;
+  align-items: center;
 
   @media (max-width: $mobile-max) {
     flex-wrap: wrap;
@@ -28,20 +30,27 @@
 }
 
 .reviews-ava {
-  padding-right:$gap-half;
-  flex-basis: 41.66%;
-  display: flex;
-  justify-content: flex-end;
+  width: 304px;
+  height: 304px;
+  flex-shrink: 0;
 
   @media (max-width: $mobile-max){
     flex-basis: 100%;
     justify-content: center;
+    margin: 0 auto;
   }
 }
 
 .reviews-img {
+  max-width: 304px;
+  max-height: 304px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
 
+  @media (max-width: $tablet-max){
+    margin: 0 auto;
+  }
 }
 
 .reviews-name {
@@ -49,6 +58,7 @@
   line-height: 65px;
   margin-bottom: 40px;
   display: block;
+  font-weight: 400;
 }
 
 .review-quote {
@@ -58,12 +68,10 @@
 
 
 .reviews-text {
-  flex-basis: 58.34%;
-  padding: 33.5px 0;
-  padding-left: $gap-half;
-  margin-right: 80px;
+  margin-left: $gap;
 
-  @media (max-width: $mobile-max) {
+
+  @media (max-width: $tablet-max) {
     text-align: center;
     flex-basis: 100%;
     margin-right: 0;
