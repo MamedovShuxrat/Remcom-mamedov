@@ -10,20 +10,41 @@
   @include title-section;
 }
 
-.accordion-btn {
+.accordion {
+  border: 1px solid rgba(255, 45, 45, 0.2);
+  border-radius: 4px;
   margin: 20px 0;
+
+  @media (max-width: $mobile-max) {
+  margin: 10px 0;
+
+  }
+}
+
+.accordion-btn {
   font-size: 36px;
   line-height: 49px;
   font-family: inherit;
   font-weight: 300;
   padding: 25px 50px;
   width: 100%;
-  border: 1px solid rgba(255, 45, 45, 0.2);
-  border-radius: 4px;
+  border: none;
   background-color: $white;
   text-align: left;
   color: $dark;
   position: relative;
+
+  @media (max-width: $tablet-max) {
+    font-size: 32px;
+    line-height: 44px;
+    }
+
+    @media (max-width: $mobile-max) {
+      font-size: 20px;
+      line-height: 27px;
+      padding: 25px 70px 25px 30px;
+
+    }
 
 
   span {
@@ -79,5 +100,17 @@
   display: none;
   padding: 25px 50px;
 
+  @media (max-width: $tablet-max) {
+    font-size: 16px;
+    line-height: 22px;
+    }
+
+    @media (max-width: $mobile-max) {
+      font-size: 14px;
+      line-height: 19px;
+      padding: 15px 30px;
+      margin-top: 0;
+
+    }
 
 }

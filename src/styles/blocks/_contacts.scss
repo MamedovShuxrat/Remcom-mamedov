@@ -1,15 +1,7 @@
 .contacts {
-  padding: 130px 0;
+  @include section-padding;
 
-  @media (max-width: $tablet-max) {
-  padding: 120px 0;
 
-  }
-
-  @media (max-width: $mobile-max) {
-  padding: 90px 0;
-
-  }
 }
 
 .contacts-inner {
@@ -29,9 +21,7 @@
 
     @media (max-width: $mobile-max) {
       display: block;
-
     }
-
   }
 
 }

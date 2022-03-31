@@ -22,3 +22,17 @@
   padding: 0 $gap-half;
   margin: 0 auto;
 }
+
+@mixin section-padding {
+  padding: 130px 0;
+
+
+  @media (max-width: $tablet-max) {
+    padding: 120px 0;
+      }
+
+    @media (max-width: $mobile-max) {
+      padding: 90px 0;
+
+    }
+}
